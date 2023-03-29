@@ -39,7 +39,7 @@ defmodule LogflareLogger.MixProject do
       {:typed_struct, "~> 0.3.0"},
       {:bertex, "~> 1.3"},
       {:etso, "~> 1.1.0"},
-      {:logflare_api_client, "~> 0.3.4"},
+      {:logflare_api_client, github: "lessless/logflare_api_client", branch: "patch-1"},
 
       # Test and Dev
       {:placebo, "~> 2.0", only: :test},
